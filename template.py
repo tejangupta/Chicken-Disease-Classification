@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-'''Generic project template of an end to end project'''
+"""Generic project template of an end to end project"""
 
 project_name = "cnnClassifier"
 
@@ -20,10 +20,11 @@ list_of_files = [
     f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
     "dvc.yaml",
+    "secrets.yaml",
     "params.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb",
+    "research/01_data_ingestion.ipynb",
     "templates/index.html"
 ]
 
