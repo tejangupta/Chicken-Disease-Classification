@@ -2,6 +2,7 @@ tensorflow
 pandas
 dvc
 notebook
+boto3
 numpy
 matplotlib
 seaborn
