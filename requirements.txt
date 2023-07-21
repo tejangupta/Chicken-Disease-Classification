@@ -6,6 +6,7 @@ boto3
 numpy
 matplotlib
 seaborn
+pre-commit
 python-box==6.0.2
 pyYAML
 tqdm
